@@ -1,0 +1,35 @@
+html,
+body,
+#web_bg {
+  background-color: #03070d !important;
+}
+
+.card-widget,
+div#post,
+div#page,
+div#archive,
+div#tag,
+div#category {
+  color: #eaf6ff;
+  background: rgba(5, 11, 20, 0.84) !important;
+}
+
+#footer,
+#footer::before,
+#page-header,
+#page-header::before,
+#page-header.post-bg::before,
+[data-theme="dark"] #footer::before,
+[data-theme="dark"] #page-header::before {
+  background: transparent !important;
+}
+
+#universe {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
